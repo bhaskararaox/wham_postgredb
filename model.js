@@ -1,5 +1,5 @@
 const Pool = require('pg').Pool;
-const connectionString = 'postgres://wham_postgresdb_so:y3w1f8wS6Ov8pTw@postgres5990-lb-fm-in.dbaas.intel.com:5432/wham_postgresdb?options=-c search_path=wham_schema';
+const connectionString = '';
 const pool = new Pool({
   connectionString
 });
